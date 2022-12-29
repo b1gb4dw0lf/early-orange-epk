@@ -3,33 +3,12 @@
 html,
 body {
   width: 100%;
-  background-color: #fa8334;
+  background-color: #eaeaea;
   color: #eaeaea;
   font-family: 'Roboto', sans-serif;
   padding: 0 !important;
   margin: 0 !important;
   justify-content: center;
-}
-
-.heading {
-  position: absolute;
-  height: 65px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  z-index: 55;
-  top: 6vw;
-  width: 100%;
-}
-
-.heading h1 {
-  margin: 0;
-  padding: 0;
-  line-height: 6vw;
-  font-size: 6vw;
-  font-weight: 500;
-  color: #fa8334;
-  text-shadow: -1px -1px 0 #eaeaea, 1px -1px 0 #eaeaea, -1px 1px 0 #eaeaea, 1px 1px 0 #eaeaea;
 }
 
 .cover {
@@ -45,15 +24,17 @@ body {
   text-align: center;
 }
 
+.content-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .content {
   width: 70%;
+  margin: 0 auto;
   max-width: 900px;
   padding: 10px 25px 25px 25px;
-  margin: 30px auto;
-  background-color: #eaeaea;
-  border-radius: 10px;
   color: #0c120c;
-  box-shadow: 2px 3px 3px #0c120c;
 }
 
 .content a {
@@ -61,7 +42,7 @@ body {
 }
 
 .content a:hover {
-  color: #73628a;
+  color: #AD343E;
 }
 
 .social {
@@ -78,9 +59,47 @@ body {
 }
 
 .social a:hover {
-  color: #73628A;
+  color: #AD343E;
 }
 
 .social a p {
   display: none;
+}
+
+.divider {
+  margin: 50px 0;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+
+.divider div {
+  align-self: center;
+  padding: 20px 0;
+}
+
+.divider div a {
+  color: #E6EFE9;
+  margin: auto 6px;
+}
+
+.divider h1 {
+  align-self: center;
+  margin: 0 auto;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #FA8334;
+  width: 100%;
+  text-shadow: -1px -1px 0 #eaeaea, 1px -1px 0 #eaeaea, -1px 1px 0 #eaeaea, 1px 1px 0 #eaeaea;
+
+}
+
+.divider-right {
+  clip-path: polygon(0 100%, 100% 65%, 100% 0, 0 35%);
+}
+
+.divider-left {
+  clip-path: polygon(0 65%, 100% 100%, 100% 35%, 0 0);
 }
