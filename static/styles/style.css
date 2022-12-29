@@ -18,15 +18,15 @@ body {
   margin: 0;
   padding: 0;
   z-index: 55;
-  top: 65px;
+  top: 6vw;
   width: 100%;
 }
 
 .heading h1 {
   margin: 0;
   padding: 0;
-  line-height: 65px;
-  font-size: 3.5em;
+  line-height: 6vw;
+  font-size: 6vw;
   font-weight: 500;
   color: #fa8334;
   text-shadow: -1px -1px 0 #eaeaea, 1px -1px 0 #eaeaea, -1px 1px 0 #eaeaea, 1px 1px 0 #eaeaea;
