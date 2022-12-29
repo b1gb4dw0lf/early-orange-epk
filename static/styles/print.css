@@ -1,0 +1,18 @@
+.social {
+  display: block
+}
+
+.social a i {
+  display: none;
+}
+
+.social a p {
+  font-size: 16px;
+}
+
+.fa-stack {
+  display: block;
+  width: 100% !important;
+  line-height: 0 !important;
+  height: auto !important;
+}
