@@ -16,3 +16,7 @@
   line-height: 0 !important;
   height: auto !important;
 }
+
+.divider div a {
+  display: none;
+}
