@@ -24,6 +24,12 @@ body {
   text-align: center;
 }
 
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .content-container {
   width: 100%;
   margin: 0 auto;
@@ -33,7 +39,7 @@ body {
   width: 70%;
   margin: 0 auto;
   max-width: 900px;
-  padding: 10px 25px 25px 25px;
+  padding: 75px 25px 75px 25px;
   color: #0c120c;
 }
 
@@ -42,7 +48,7 @@ body {
 }
 
 .content a:hover {
-  color: #AD343E;
+  color: #fa8334 !important;
 }
 
 .social {
@@ -59,7 +65,7 @@ body {
 }
 
 .social a:hover {
-  color: #AD343E;
+  color: #fa8334;
 }
 
 .social a p {
@@ -67,7 +73,6 @@ body {
 }
 
 .divider {
-  margin: 50px 0;
   height: 70px;
   width: 100%;
   text-align: center;
@@ -81,12 +86,12 @@ body {
 
 .divider div a {
   display: inline-block;
-  color: #E6EFE9;
+  color: #1E2019;
   margin: 10px 6px 0 6px;
 }
 
 .divider div a:hover {
-  color: #0c120c;
+  color: #fa8334;
 }
 
 .divider h1 {
@@ -95,10 +100,13 @@ body {
   line-height: 40px;
   font-size: 40px;
   font-weight: 500;
-  color: #FA8334;
+  color: #fa8334;
   width: 100%;
-  text-shadow: -1px -1px 0 #eaeaea, 1px -1px 0 #eaeaea, -1px 1px 0 #eaeaea, 1px 1px 0 #eaeaea;
 
+}
+
+.divider-right-bottom {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 60%);
 }
 
 .divider-right {
@@ -128,8 +136,11 @@ body {
   padding: 0 0 0 0;
   border: 20px solid #fff;
   border-bottom: 40px solid #fff;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-box-shadow: 10px 11px 71px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 11px 71px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 11px 71px -12px rgba(0, 0, 0, 0.75);
   text-align: center;
+  border-radius: 3px;
 }
 
 .gallery-2 {
@@ -147,8 +158,12 @@ body {
   padding: 0 0 0 0;
   border: 20px solid #fff;
   border-bottom: 40px solid #fff;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  -webkit-box-shadow: 10px 11px 71px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 11px 71px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 11px 71px -12px rgba(0, 0, 0, 0.75);
   text-align: center;
+  border-radius: 3px;
+
 }
 
 .gallery-1 img {
@@ -157,7 +172,8 @@ body {
   margin-bottom: -22px;
 }
 
-.gallery-1 span, .gallery-2 span {
+.gallery-1 span,
+.gallery-2 span {
   position: relative;
   top: 27px;
   font-weight: bold;
